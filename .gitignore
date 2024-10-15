@@ -1,0 +1,52 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file
+/composer.lock
+
+# PHPUnit configuration and results
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Build directories
+/build/
+/coverage/
+/dist/
+
+# Node dependencies (if applicable)
+/node_modules/
+
+# IDE and editor configurations
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files (if any)
+/.env
+.env.*
+.env.backup
+
+# Logs
+*.log
+
+# Temporary files
+/tmp/
+/temp/
+*.tmp
+
+# Generated files
+/public/vendor/
+/public/storage/
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.cache

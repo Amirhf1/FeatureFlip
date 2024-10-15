@@ -1,0 +1,36 @@
+{
+    "name": "amirhf1/feature-toggle",
+    "description": "FeatureFlip is a dynamic Laravel package that simplifies the management of feature toggles, allowing developers to switch functionalities on or off with ease. Enhance your application's flexibility and reduce deployment risks by controlling feature availability without altering the codebase.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Hossein Fallah",
+            "email": "amirhf12x@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "amirhf1\\FeatureToggle\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "amirhf1\\FeatureToggle\\FeatureToggleServiceProvider"
+            ],
+            "aliases": {
+                "FeatureToggle": "amirhf1\\FeatureToggle\\Facades\\FeatureToggle"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
